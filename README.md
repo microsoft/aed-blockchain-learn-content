@@ -4,7 +4,7 @@ This repo contains all the content for development of blockchain Learn modules.
 
 ## Learning Path: Ethereum blockchain development
 
-### Module: Using solididty
+### Module: Learning solididty
 1. Introduction
 2. What is Solidity
 3. Layout of a source file
@@ -14,16 +14,6 @@ This repo contains all the content for development of blockchain Learn modules.
 8. Struct and Enum Types
 9. Knowledge check
 10. Summary
-
-### Module: Smart contract development tools
-1. Introduction
-2. BDK
-3. Exercise: Setup BDK
-4. Truffle
-5. Exercise: Setup Truffle
-6. OpenZeppelin
-7. Exercise: Setup OpenZeppelin
-8. Remix
 
 ### Module: Use Solidity to write Ethereum smart contracts
 1. Introduction
@@ -37,13 +27,13 @@ This repo contains all the content for development of blockchain Learn modules.
 9. Summary
 
 ### Module: Create a bank contract with exchange rate
-- Introduction
-- Advanced usage of Solidity data structures
-- What is an oracle
-- Exercise:
-- Exercise:
-- Knowledge check
-- Summary
+1. Introduction
+2. Advanced usage of Solidity data structures
+3. What is an oracle
+4. Exercise:
+5. Exercise:
+6. Knowledge check
+7. Summary
 
 ### Module: Create a decentralized application
 1. Introduction
