@@ -3,15 +3,15 @@ This repo contains all the content for development of blockchain Learn modules.
 # Learn Module Outlines
 
 ### Module 1: Use Solidity to write Ethereum smart contracts
-- Introduction
-- What is a smart contract
-- Exercise: Install the Blockchain Development Kit for Ethereum
-- Exercise: Install truffle
-- Exercise: Write your first smart contract
-- Exercise: Test your first smart contract
-- Best practices for smart contracts
-- Knowledge check
-- Summary
+1. Introduction
+2. What is a smart contract
+3. Exercise: Install the Blockchain Development Kit for Ethereum
+4. Exercise: Install truffle
+5. Exercise: Write your first smart contract
+6. Exercise: Test your first smart contract
+7. Best practices for smart contracts
+8. Knowledge check
+9. Summary
 
 # Contributing
 
