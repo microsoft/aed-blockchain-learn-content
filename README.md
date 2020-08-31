@@ -8,12 +8,13 @@ This repo contains all the content for development of blockchain Learn modules. 
 1. Introduction
 2. What is Solidity
 3. Layout of a source file
-4. State variables
+4. Variables
 5. Functions
 7. Events
 8. Data types
-9. Knowledge check
-10. Summary
+9. Exercise: Write a smart contract
+10. Knowledge check
+11. Summary
 
 **Status:** In progress
 
