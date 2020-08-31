@@ -1,4 +1,4 @@
-This repo contains all the content for development of blockchain Learn modules.
+This repo contains all the content for development of blockchain Learn modules. Once content is developed here, it will be moved over to the Learn repository.
 
 # Learn Module Outlines
 
@@ -11,9 +11,11 @@ This repo contains all the content for development of blockchain Learn modules.
 4. State variables
 5. Functions
 7. Events
-8. Struct and Enum Types
+8. Data types
 9. Knowledge check
 10. Summary
+
+**Status:** In progress
 
 ### Module: Use Solidity to write Ethereum smart contracts
 1. Introduction
@@ -26,14 +28,18 @@ This repo contains all the content for development of blockchain Learn modules.
 8. Knowledge check
 9. Summary
 
-### Module: Create a bank contract with exchange rate
+**Status:** In progress
+
+### Module: Create a bank smart contract with exchange rate
 1. Introduction
 2. Advanced usage of Solidity data structures
 3. What is an oracle
-4. Exercise:
-5. Exercise:
+4. Exercise: TBD
+5. Exercise: TBD
 6. Knowledge check
 7. Summary
+
+**Status:** Planning
 
 ### Module: Create a decentralized application
 1. Introduction
@@ -46,6 +52,8 @@ This repo contains all the content for development of blockchain Learn modules.
 8. Knowledge check
 9. Summary
 
+**Status:** Planning
+
 ### Module: Ethereum networks
 1. What is Ethereum
 2. Types of networks
@@ -53,6 +61,8 @@ This repo contains all the content for development of blockchain Learn modules.
 4. Exercise: Deploy to a network
 5. Knowledge check
 6. Summary
+
+**Status:** Planning
 
 # Contributing
 
