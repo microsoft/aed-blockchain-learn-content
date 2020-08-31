@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: 
+metadata:
+  title: What is Solidity
+  description: Learn about what Solidity is all about
+  ms.date: 
+  author: 
+  ms.author: 
+  ms.topic: 
+  ms.prod: 
+title: What is Solidity
+durationInMinutes: 
+content: |
+  [!include[](includes/2-what-is-solidity.md)]

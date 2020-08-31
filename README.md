@@ -1,4 +1,4 @@
-This repo contains all the content for development of blockchain Learn modules. Once content is developed here, it will be moved over to the Learn repository.
+This repo contains all the content for development of blockchain Learn modules. Once content is developed here, it will be moved over to the [Learn repository](https://github.com/MicrosoftDocs/learn-pr).
 
 # Learn Module Outlines
 
