@@ -1,0 +1,6 @@
+- Booleans
+- Integers
+- Fixed point numbers
+- Address
+- Enums
+- Function types

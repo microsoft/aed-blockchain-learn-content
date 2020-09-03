@@ -4,17 +4,15 @@ This repo contains all the content for development of blockchain Learn modules. 
 
 ## Learning Path: Ethereum blockchain development
 
-### Module: Learning solididty
+### Module: Learning Solididty
 1. Introduction
 2. What is Solidity
-3. Layout of a source file
-4. Variables
-5. Functions
-7. Events
-8. Data types
-9. Exercise: Write a smart contract
-10. Knowledge check
-11. Summary
+3. Language basics
+4. Value types
+5. Reference types
+6. Write your first contract
+7. Knowledge check
+8. Summary
 
 **Status:** In progress
 
