@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: 
+metadata:
+  title: Value Types
+  description: 
+  ms.date: 
+  author: 
+  ms.author: 
+  ms.topic: 
+  ms.prod: 
+title: Value Types
+durationInMinutes: 
+content: |
+  [!include[](includes/4-value-types.md)]
