@@ -1,0 +1,26 @@
+### YamlMime:LearningPath
+uid: learn.ethereum-blockchain-development
+metadata:
+  title: Get started with blockchain development
+  description: "" 
+  brand: 
+  ms.date: 
+  author: 
+  ms.author: 
+  ms.topic: 
+  ms.prod: 
+title: ""
+summary: ""
+prerequisites: None
+iconUrl: ""
+levels:
+- beginner
+roles:
+- student
+products:
+- "blockchain"
+modules:
+- learn.student-evangelism.introduction
+-
+trophy:
+  uid: https://docs.microsoft.com/media/learn/module.svg

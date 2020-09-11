@@ -69,4 +69,6 @@ contract SimpleStorage {
 }
 ```
 
+### Challenge
+
 Go to: https://remix.ethereum.org/ to explore more smart contract examples in Solidity. Remix is an in-browser IDE that is instant to get started without having to create an account or sign in. You can immediately write, test, compile, and deploy contracts.

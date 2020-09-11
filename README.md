@@ -2,9 +2,9 @@ This repo contains all the content for development of blockchain Learn modules. 
 
 # Learn Module Outlines
 
-## Learning Path: Ethereum blockchain development
+## Learning Path: Get started with blockchain development
 
-### Module: Learning Solididty
+### Module: Learn how to use Solididty
 1. Introduction
 2. What is Solidity
 3. Language basics
@@ -53,7 +53,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 
 **Status:** Planning
 
-### Module: Ethereum networks
+### Module: Learn how to deploy to Ethereum networks
 1. What is Ethereum
 2. Types of networks
 3. Exercise: Connect to a network

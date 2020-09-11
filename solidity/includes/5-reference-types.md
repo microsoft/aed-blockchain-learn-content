@@ -1,3 +1,0 @@
-- Data location
-- Arrays
-- Structs
