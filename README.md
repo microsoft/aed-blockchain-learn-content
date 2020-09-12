@@ -1,15 +1,16 @@
+# Learning Path: Get started with blockchain development
+
 This repo contains all the content for development of blockchain Learn modules. Once content is developed here, it will be moved over to the [Learn repository](https://github.com/MicrosoftDocs/learn-pr).
 
-# Learn Module Outlines
+## Learn Module Outlines
 
-## Learning Path: Get started with blockchain development
+### Module: Learn how to use Solidity
 
-### Module: Learn how to use Solididty
 1. Introduction
-2. What is Solidity
-3. Language basics
-4. Value types
-5. Reference types
+2. Learn about Solidity
+3. Understand the language basics
+4. Explore value types
+5. Explore reference types
 6. Write your first contract
 7. Knowledge check
 8. Summary
@@ -17,8 +18,9 @@ This repo contains all the content for development of blockchain Learn modules. 
 **Status:** In progress
 
 ### Module: Use Solidity to write Ethereum smart contracts
+
 1. Introduction
-2. What is a smart contract
+2. Learn what smart contracts are
 3. Exercise: Install the Blockchain Development Kit for Ethereum
 4. Exercise: Install truffle
 5. Exercise: Write your first smart contract
@@ -30,9 +32,10 @@ This repo contains all the content for development of blockchain Learn modules. 
 **Status:** In progress
 
 ### Module: Create a bank smart contract with exchange rate
+
 1. Introduction
-2. Advanced usage of Solidity data structures
-3. What is an oracle
+2. Use advanced Solidity data structures
+3. Understand how oracles work in blockchain
 4. Exercise: TBD
 5. Exercise: TBD
 6. Knowledge check
@@ -41,9 +44,10 @@ This repo contains all the content for development of blockchain Learn modules. 
 **Status:** Planning
 
 ### Module: Create a decentralized application
+
 1. Introduction
-2. What are decentralized applications
-3. Ways to build them
+2. Understand decentralized applications
+3. Learn the options to build decentralized applications
 4. What frontend UI framework you need to know
 5. Exercise: Create the app
 6. UI/UX best practices
@@ -54,6 +58,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 **Status:** Planning
 
 ### Module: Learn how to deploy to Ethereum networks
+
 1. What is Ethereum
 2. Types of networks
 3. Exercise: Connect to a network

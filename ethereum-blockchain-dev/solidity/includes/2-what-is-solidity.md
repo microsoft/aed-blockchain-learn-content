@@ -1,32 +1,27 @@
-# What is Solidity
+# Learn about Solidity
 
-## An overview
 Solidity is an object-oriented language for writing smart contracts. And smart contracts are code that specify the rules and behavior of how to transfer digital assets. You use Solidity to program smart contracts for the [Ethereum blockchain platform](https://ethereum.org/). Smart contracts contain state and programmable logic. Transactions instantiate smart contracts and execute functions that change state. Therefore, smart contracts enable you to create a business workflow.
 
-Solidity is the most popular programming language for the Ethereum blockchain. 
+## An overview
 
-Solidity was based off of many programming languages before it, including C++, Python, and JavaScript. That means that if you're familiar with any of those languages, looking at Solidity code will feel very familiar.
+Solidity is the most popular programming language for the Ethereum blockchain.
 
-Solidity is statically typed, which means that type checking happens at compile-time as opposed to run-time as happens with dynamically typed languages. 
+Solidity is a high-level language that is based off of other programming languages before it, including C++, Python, and JavaScript. That means that if you're familiar with any of those languages, looking at Solidity code will feel very familiar.
 
-With a statically typed language, the type of each variable needs to be specified.
+Solidity is statically typed, which means that type checking happens at compile-time as opposed to run-time as happens with dynamically typed languages. With a statically typed language, the type of each variable needs to be specified. Python and JavaScript are dynamically-typed languages, whereas C++ is statically typed.
 
-Python and JavaScript are dynamically-typed languages, whereas C++ and C# are statically typed.
+It supports inheritance so that functions, variables, and other properties from a contract class can be used in another. And it also supports complex user-defined types like structs and enums, which will be covered in a later unit.
 
-It supports inheritance so that functions, variables, and other properties from a contract class can be used in another.
-
-And it also supports complex user-defined types like...
-
-Solidity is an open-source programming language. You can learn more at their GitHub repository at: https://github.com/ethereum/solidity
+Solidity is an open-source programming language. You can learn more about the project and how to contribute in their [GitHub repository](https://github.com/ethereum/solidity).
 
 ## What is Ethereum
 
-So before we go any further, you should also familiarize yourself with Ethereum.
+Before we go any further, you should also familiarize yourself with Ethereum.
 
-[Ethereum](https://ethereum.org/) is referred to as the "world's programmable blockchain" which means you can use it to create and transfer lots of different digital assets. And with the emergence of Ethereum of 2015, there have been advancements on the tools you can use to program on the Ethereum network.
+[Ethereum](https://ethereum.org/) is one of the most popular blockchain platforms out there, right behind Bitcoin. It is a community built technology and has its own cryptocurrency called Ether (ETH) that you can buy and sell.
 
-Ethereum is one of the most popular blockchain platforms out there, right behind Bitcoin. What makes Ethereum unique is that it allows for the transfer of it's cryptocurrency, Ether. It is also programmable, which means you can code contract definitions that can be used to code lots of different digital assets.
-
+What makes Ethereum unique is that it is the "world's programmable blockchain", which means you can code contract definitions, referred to as smart contracts, that are used to describe how blockchain participants transfer digital assets. Solidity is the primary programming language used to develop on the Ethereum platform, and it it built and maintained by Ethereum developers.
 
 ## The Ethereum Virtual Machine
-Solidity contracts target the Ethereum Virtual Machine or EVM for short.
+
+Solidity contracts run on the Ethereum Virtual Machine or EVM for short. It is a sandbox environment that is completely isolated so that it does not access anything else on the network besides the contracts it executes. You don't need to know much more about the EVM for now, but just remember that Solidity smart contracts will be deployed to and run in a virtual machine.
