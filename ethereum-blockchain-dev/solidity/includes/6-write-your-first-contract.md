@@ -1,74 +1,110 @@
+# Write your first contract
 
-HelloWorld in Solidity
-```
-pragma solidity >=0.6.0 <0.8.0;
+Now let's put together what we've learned into a complete smart contract example.
 
-contract HelloWorld {
-  function helloWorld() external pure returns (string memory) {
-    return "Hello, World!";
-  }
-}
-```
+In this example, we have a marketplace. So far, you can list an item for sale and you can buy an item. The two roles involved are a seller and a buyer.
 
-Subcurrency example
+## Simple Marketplace example
 
-```
-// SPDX-License-Identifier: GPL-3.0
-pragma solidity >0.5.99 <0.8.0;
+```solidity
+pragma solidity >0.7.0 <0.8.0;
 
-contract Coin {
-    // The keyword "public" makes variables
-    // accessible from other contracts
-    address public minter;
+contract Marketplace {
+    address public seller;
+    address public buyer;
     mapping (address => uint) public balances;
 
-    // Events allow clients to react to specific
-    // contract changes you declare
-    event Sent(address from, address to, uint amount);
+    event ListItem(address seller, uint price);
+    event PurchasedItem(address seller, address buyer, uint price);
 
-    // Constructor code is only run when the contract
-    // is created
-    constructor() {
-        minter = msg.sender;
+    enum StateType {
+          ItemAvailable,
+          ItemPurchased
+        }
+
+    StateType public State;
+
+    constructor() public {
+        seller = msg.sender;
+        State = StateType.ItemAvailable;
     }
 
-    // Sends an amount of newly created coins to an address
-    // Can only be called by the contract creator
-    function mint(address receiver, uint amount) public {
-        require(msg.sender == minter);
-        require(amount < 1e60);
-        balances[receiver] += amount;
-    }
+    function buy(address seller, address buyer, uint price) public {
+        require(price <= balances[buyer], "Insufficient balance");
+        State = StateType.ItemPurchased;
+        balances[buyer] -= price;
+        balances[seller] += price;
 
-    // Sends an amount of existing coins
-    // from any caller to an address
-    function send(address receiver, uint amount) public {
-        require(amount <= balances[msg.sender], "Insufficient balance.");
-        balances[msg.sender] -= amount;
-        balances[receiver] += amount;
-        emit Sent(msg.sender, receiver, amount);
+        emit PurchasedItem(msg.seller, buyer, msg.value);
     }
-}
 ```
 
-Storage example
-```
-// SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.4.16 <0.8.0;
+I'll explain the main components of this smart contract:
 
-contract SimpleStorage {
-    uint storedData;
+- There are 3 state variables: buyer, seller, and balances
+- There are 2 events: `ListItem` and `PurchasedItem`
+- There is an enum with 2 values: `ItemAvailable` and `ItemPurchased`
+- The constructor will assign the seller user as msg.sender, and set the initial state to ItemAvailable. This constructor is called when the contract is created.
+- The `buy` function takes 3 parameters: `seller`, `buyer`, and `price`. It has a requirement that the buyer has enough money for the purchase. Then it transfers money from the buyer to the seller, and finally a message is emitted.
 
-    function set(uint x) public {
-        storedData = x;
+## More complex marketplace example
+
+```solidity
+pragma solidity >0.7.0 <0.8.0;
+
+contract Marketplace {
+    address public seller;
+    address public buyer;
+    mapping (address => uint) public balances;
+
+    event ListItem(address seller, uint price);
+    event PurchasedItem(address seller, address buyer, uint price);
+
+    enum StateType {
+          ItemAvailable,
+          ItemBought
+        }
+
+    StateType public State;
+
+    constructor() public {
+        seller = msg.sender;
+        State = StateType.ItemAvailable;
     }
 
-    function get() public view returns (uint) {
-        return storedData;
+    function buy(address seller, address buyer, uint price) public {
+        require(price <= balances[sender], "Insufficient balance");
+        State = StateType.ItemBought;
+        balances[buyer] -= price;
+        balances[seller] += price;
+
+        emit PurchasedItem(msg.sender, buyer, msg.value);
     }
-}
+
+    modifier onlySeller() {
+        require(
+            msg.sender == seller,
+            "Only seller can put an item up for sale."
+        );
+        _;
+    }
+
+    struct Items_Schema {
+        uint256 _id:
+        uint256 _price:
+        string _name;
+    }
+
+    function listItem(uint 256 memory _price, string memory _name) public {
+        item_id += 1;
+        item[vehicle_id] = Items_Schema(item_id, _price, _name);
+
+        emit ListItem(address seller, uint price);
+    }
 ```
 
-### Challenge
+## Challenge
 
-Go to: https://remix.ethereum.org/ to explore more smart contract examples in Solidity. Remix is an in-browser IDE that is instant to get started without having to create an account or sign in. You can immediately write, test, compile, and deploy contracts.
+Go to [Remix IDE](https://remix.ethereum.org/) to explore more smart contract examples in Solidity. Remix is an in-browser IDE that is instant to get started without having to create an account or sign in. You can immediately write, test, compile, and deploy contracts.
+
+I encourage you to explore the pre-built contracts available in Remix and then to copy this smart contract over in a new file named `Marketplace.sol`.

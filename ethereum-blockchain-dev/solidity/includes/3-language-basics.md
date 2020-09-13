@@ -29,7 +29,7 @@ State variables are key to any Solidity source file. They are variables whose va
 ```solidity
 pragma solidity >0.7.0 <0.8.0;
 
-contract SimpleMarketplace {
+contract Marketplace {
     uint price; // State variable  
 ```
 
@@ -55,7 +55,7 @@ A simple example to define a function is this:
 ```solidity
 pragma solidity >0.7.0 <0.8.0;
 
-contract SimpleMarketplace {
+contract Marketplace {
     function buy() public {
         // ...
     }
@@ -69,7 +69,7 @@ A function can be called internally or externally from another contract. Functio
 ```solidity
 pragma solidity >0.7.0 <0.8.0;
 
-contract SimpleMarketplace {
+contract Marketplace {
     function buy(uint price) public returns (uint) {
         // ...
     }
@@ -81,9 +81,9 @@ contract SimpleMarketplace {
 Function modifiers can be used to change the behavior of functions. They work by checking a condition before the function executes. For example, checking that only a user designated as a seller can list an item for sale.
 
 ```solidity
-pragma solidity >0.7.0;
+pragma solidity >0.7.0 <0.8.0;
 
-contract SimpleMarketplace {
+contract Marketplace {
     address public seller;
 
     modifier onlySeller() {
@@ -95,6 +95,7 @@ contract SimpleMarketplace {
     }
 
     function listItem() public view onlySeller {
+        // ...
     }
 }
 ```
@@ -108,7 +109,7 @@ This example introduces a couple new things:
 
 Additional function modifiers that can be used in the function definition are:
 
-- **pure** to describe functions that don't allow modifications or access of state 
+- **pure** to describe functions that don't allow modifications or access of state
 - **view** to describe functions that don't allow modifications of state
 - **payable** to describe functions that can receive Ether
 
@@ -119,7 +120,9 @@ Events describe actions that are taken in the contract. Events have parameters l
 To call an event, you must use the keyword **emit** with the event name and it's parameters.
 
 ```solidity
-contract SimpleMarketplace {
+pragma solidity >0.7.0 <0.8.0;
+
+contract Marketplace {
     event PurchasedItem(address buyer, uint price);
 
     function buy() public {

@@ -9,7 +9,7 @@ Integers are used in every Solidity source file. They represent whole numbers an
 - Signed: Include negative and positive numbers. Can represent as `int8`
 - Unsigned: Includes positive numbers only. Can represent as `uint256`.
 
-If a number of bits is not specified, and instead an integer is assigned the type of simply **uint** or **int** then  it will be given the default value of 256 bits.
+If a number of bits is not specified, the default value is 256 bits.
 
 The following operations can be applied to integers:
 
@@ -17,12 +17,11 @@ The following operations can be applied to integers:
 - Bit operators: `& (and)`, `| (or)`, `^ (bitwise exclusive)`, `~ (bitwise negation)`
 - Arithmetic operators" `+ (addition)`,`- (subtraction)`, `* (multiplication)`, `/ (division)`, `% (modulo)`, `** (exponential)`
 
-Here are some examples of integer definitons:
+Here are some examples of integer definitions:
 
 ```solidity
-int32 price = 2.5; // signed 32 bit integer
+int32 price = 25; // signed 32 bit integer
 int256 balance = 1000; // signed 256 bit integer
-assert(balance > price); // true
 
 balance - price; // 975
 2 * price; // 50
@@ -43,7 +42,7 @@ bool purchased; //true if an item has been purchased
 Booleans are commonly used in comparison statements. For example:
 
  ```solidity
-if(price > 0) {
+if(balance > 0 & balance > price) {
     return true;
 }
 
@@ -65,9 +64,9 @@ function buy(int price) returns (bool success) {
 String literals are also used in most contract files. They are characters or words surrounded by either double or single-quotes.
 
 ```solidity
-    String foo = "foo"; // foo
-    String bar = "bar"; // bar
-    String foobar = "foo" "bar"; // foobar
+    String shipped = "shipped"; // shipped
+    String delivered = 'delivered'; // delivered
+    String newItem = "new" "Item"; // newItem
 ```
 
 Additionally, the following escape characters can be used with string literals:
@@ -94,20 +93,29 @@ function transfer(address buyer, uint price) {
 
 ## Enums
 
-Enums allow you to create a user-defined type in Solidity. It is user-defined, because the person creating the contract decided the values to include. They present a number of choices that can be selected and require that at least one selection is chosen.
+Enums allow you to create a user-defined type in Solidity. It's called user-defined, because the person creating the contract decides the values to include. They present a number of choices that can be selected and require at least one selection.
 
 An example of an **enum** is having different statuses for an item. You can think of these as representing multiple choice answers, where all the values are pre-defined and you have to select one. Enums can be declared in contract or library definitions.
 
 ```solidity
-enum StateType {
+    enum StateType {
       ItemAvailable,
-      OfferPlaced,
-      Accepted
+      ItemBought
     }
 
 StateType public State;
 
 constructor() public {
     State = StateType.ItemAvailable;
+}
+```
+
+```solidity
+    enum Status { Pending, Shipped, Delivered }
+    Status public status;
+
+    constructor() public {
+        status = Status.Pending;
+    }
 }
 ```
