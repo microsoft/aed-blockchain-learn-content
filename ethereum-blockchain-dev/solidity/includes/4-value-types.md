@@ -4,10 +4,10 @@ In this unit you'll learn about the main value types in Solidity. They are calle
 
 ## Integers
 
-Integers are used in every Solidity source file. They represent whole numbers and can either be signed or unsigned and range from 8 up to 256 bits.
+Integers are used in every Solidity source file. They represent whole numbers and can either be signed or unsigned and range from 8 up to 256 bits that they can store.
 
-- Signed: Include negative and positive numbers. Can represent as `int8`
-- Unsigned: Includes positive numbers only. Can represent as `uint256`.
+- Signed: Include negative and positive numbers. Can represent as **int**
+- Unsigned: Includes positive numbers only. Can represent as **uint**
 
 If a number of bits is not specified, the default value is 256 bits.
 
@@ -30,7 +30,7 @@ price % 2; // 0
 
 ## Booleans
 
-Booleans are defined using the keyword `bool` and always have the values **true** or **false**.
+Booleans are defined using the keyword **bool** and always have the values `true` or `false`.
 
 They can be defined as:
 

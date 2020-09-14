@@ -39,69 +39,13 @@ contract Marketplace {
     }
 ```
 
-I'll explain the main components of this smart contract:
+Let's dig into the main components of this smart contract:
 
 - There are 3 state variables: buyer, seller, and balances
 - There are 2 events: `ListItem` and `PurchasedItem`
 - There is an enum with 2 values: `ItemAvailable` and `ItemPurchased`
 - The constructor will assign the seller user as msg.sender, and set the initial state to ItemAvailable. This constructor is called when the contract is created.
 - The `buy` function takes 3 parameters: `seller`, `buyer`, and `price`. It has a requirement that the buyer has enough money for the purchase. Then it transfers money from the buyer to the seller, and finally a message is emitted.
-
-## More complex marketplace example
-
-```solidity
-pragma solidity >0.7.0 <0.8.0;
-
-contract Marketplace {
-    address public seller;
-    address public buyer;
-    mapping (address => uint) public balances;
-
-    event ListItem(address seller, uint price);
-    event PurchasedItem(address seller, address buyer, uint price);
-
-    enum StateType {
-          ItemAvailable,
-          ItemBought
-        }
-
-    StateType public State;
-
-    constructor() public {
-        seller = msg.sender;
-        State = StateType.ItemAvailable;
-    }
-
-    function buy(address seller, address buyer, uint price) public {
-        require(price <= balances[sender], "Insufficient balance");
-        State = StateType.ItemBought;
-        balances[buyer] -= price;
-        balances[seller] += price;
-
-        emit PurchasedItem(msg.sender, buyer, msg.value);
-    }
-
-    modifier onlySeller() {
-        require(
-            msg.sender == seller,
-            "Only seller can put an item up for sale."
-        );
-        _;
-    }
-
-    struct Items_Schema {
-        uint256 _id:
-        uint256 _price:
-        string _name;
-    }
-
-    function listItem(uint 256 memory _price, string memory _name) public {
-        item_id += 1;
-        item[vehicle_id] = Items_Schema(item_id, _price, _name);
-
-        emit ListItem(address seller, uint price);
-    }
-```
 
 ## Challenge
 

@@ -42,7 +42,7 @@ For all variable definitions you must specify the type as well as the variable n
 
 Additionally, you can specify the visibility of a state variable as:
 
-- **public:** part of the contract interface
+- **public:** part of the contract interface and can be accessed from other contracts
 - **internal:** only accessed internally from the current contract
 - **private:** only visible for the contract they are defined in
 
