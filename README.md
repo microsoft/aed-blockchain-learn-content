@@ -23,9 +23,9 @@ This repo contains all the content for development of blockchain Learn modules. 
 2. Learn what smart contracts are
 3. Exercise: Install the Blockchain Development Kit for Ethereum
 4. Exercise: Install truffle
-5. Exercise: Write your first smart contract
-6. Exercise: Test your first smart contract
-7. Best practices for smart contracts
+5. Exercise: Write a smart contract
+6. Exercise: Test your smart contract
+7. Use best practices for smart contracts
 8. Knowledge check
 9. Summary
 
