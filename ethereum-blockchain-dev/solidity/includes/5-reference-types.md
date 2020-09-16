@@ -1,6 +1,8 @@
 # Reference types
 
-Another common type you'll deal with when writing contracts are reference types. The main difference is that values of reference types can be modified through different names.
+Another common type you'll deal with when writing contracts are reference types. Values of reference types can be modified through multiple different names.
+
+While value types are alway pass an independent copy of the value, reference types provide a data location to the value. The three reference types are: **structs**, **arrays**, and **mappings**.
 
 When using a reference type, you must explicitly provide the data area where the type is stored in a data location.
 
@@ -8,11 +10,18 @@ When using a reference type, you must explicitly provide the data area where the
 
 Every reference type specifies a data location to where the data is stored. The three options for specifying the data area where the type is stored are:
 
-- **memory:** the type has a lifetime limited to external function call
-- **storage:** the type location where state variables are stored
-- **calldata:** the special data location that contains the function arguments
+- **memory:**  
+  - The location where contains function arguments are stored
+  - Has a lifetime limited to external function call
+- **storage:**
+  - The location where state variables are stored
+  - Has a lifetime limited to the contract lifetime
+- **calldata:**
+  - The location where contains function arguments are stored
+  - It is required for parameters of external functions but can also be used for other variables
+  - Has a lifetime limited to external function call
 
-They always create an independent copy.
+The reference type always create an independent copy of the data.
 
 Example:
 
@@ -35,25 +44,26 @@ contract C {
 
 ## Arrays
 
-Arrays are a way to store similar data in a set data structure. Arrays in Solidity are similar to arrays in other programming languages. They can either have a fixed or dynamic size. Their indices start at 0.
+Arrays are a way to store similar data in a set data structure. They can either have a fixed or dynamic size. Their indices start at 0.
+
+The type of an array of fixed size `k` and element type `T` is written as `T[k]`, and an array of dynamic size as `T[]`.
+
 Array elements can be of any type like **uint**, **memory**, or **bytes**, and can also include **mappings** or **structs**.
 
 Examples:
 
 ```solidity
-uint[] itemIds;
-uint[3] prices = 1, 2, 3;
+uint[] itemIds; // Declare a dynamic sized array called itemIds
+uint[3] prices = [1, 2, 3]; // initialize a fixed size array called prices, with prices 1, 2, and 3
+uint[] prices = [1, 2, 3]; // same as above
 ```
-
-### Bytes and strings as arrays
-
-Variables of type bytes and string are special arrays. A bytes is similar to byte[], but it is packed tightly in calldata and memory. string is equal to bytes but does not allow length or index access.
 
 ### Array members
 
+The following members are available to get information about and manipulate arrays:
+
 - **length**: Get the length of an array
 - **push()**: Append an element at the end of the array
-- **push(x)**: Append a given element to the end of the array
 - **pop**: Remove an element from the end of an array
 
 Examples:
