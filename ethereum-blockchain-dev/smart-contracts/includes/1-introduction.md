@@ -24,4 +24,4 @@ By the end of this module, you will be able to:
 - Familiarity with Solidity programming language
 - Visual Studio Code installed
 - Knowledge of how to download programs from the internet
-- Knowledge of how to open and navigate the command line
+- Knowledge of how to use the command line
