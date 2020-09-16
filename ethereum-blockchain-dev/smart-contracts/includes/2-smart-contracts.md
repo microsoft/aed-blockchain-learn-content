@@ -38,13 +38,13 @@ There are numerous tools available to help you more effectively develop smart co
 ### Integrated Development Environments
 
 - [Visual Studio Code](https://code.visualstudio.com/): Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. This module will use Visual Studio Code for all exercises.
-- [Remix]((https://remix.ethereum.org/)): Remix is a browser-based compiler and IDE that enables users to build Ethereum contracts with Solidity language and to debug transactions. Remix is a great option to explore sample contracts, and write, test, and deploy your own contracts. We won't be using Remix in this module, but it's an option available for you to try out the contract exercises.
+- [Remix](https://remix.ethereum.org/): Remix is a browser-based compiler and IDE that enables users to build Ethereum contracts with Solidity language and to debug transactions. Remix is a great option to explore sample contracts, and write, test, and deploy your own contracts. We won't be using Remix in this module, but it's an option available for you to try out the contract exercises.
 
 ### Extensions
 
-- [Blockchain Development Kit for Ethereum]((https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain)): The Blockchain Development Kit extension simplifies how you create, build and deploy smart contracts on Ethereum ledgers. This module will use the help of the Blockchain Development Kit to help write, and test smart contracts.
+- [Blockchain Development Kit for Ethereum](https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain): The Blockchain Development Kit extension simplifies how you create, build and deploy smart contracts on Ethereum ledgers. This module will use the help of the Blockchain Development Kit to help write, and test smart contracts.
 
 ### Frameworks
 
-- [Truffle Suite]((https://www.trufflesuite.com)): The Truffle tool suite is used to test Ethereum contracts before they are deployed to public ledgers and incur real costs. You want to develop locally and make your life as a developer easier. The suite includes: Truffle, Ganache, and Drizzle. In this module, we will be using Truffle.
-- [OpenZeppelin]((https://openzeppelin.com/)): OpenZeppelin provides tools to write, deploy and operate decentralized applications. There are two different products that OpenZeppelin provides- the contracts library and the SDK. We will not be using OpenZeppelin in this module, but it's good to know that this is an option available that can help write secure blockchain applications in the future.
+- [Truffle Suite](https://www.trufflesuite.com): The Truffle tool suite is used to test Ethereum contracts before they are deployed to public ledgers and incur real costs. You want to develop locally and make your life as a developer easier. The suite includes: Truffle, Ganache, and Drizzle. In this module, we will be using Truffle.
+- [OpenZeppelin](https://openzeppelin.com/): OpenZeppelin provides tools to write, deploy and operate decentralized applications. There are two different products that OpenZeppelin provides- the contracts library and the SDK. We will not be using OpenZeppelin in this module, but it's good to know that this is an option available that can help write secure blockchain applications in the future.
