@@ -1,11 +1,15 @@
 # Exercise: Write a smart contract with the Blockchain Development Kit for Ethereum
 
-In the project you created earlier, under the **contracts/** directory, select to create a new file called **Shipping.sol**.
+In this unit, we'll add a new smart contract to the newSolidityProject we previously created.
+
+## Create a shipping contract
+
+In the project you created earlier, under the **contracts/** directory, right-click on the directory and select to create a new file called **Shipping.sol**.
 
 Copy over the contents of this contract below:
 
 ```solidity
-pragma solidity ^0.7.0;
+pragma solidity >=0.5.16<=0.7.0;
 
 contract Shipping
 {
@@ -46,3 +50,23 @@ contract Shipping
 
 }
 ```
+
+Take a look through the contract to get familiar with what's happening here.
+
+## Add a migration
+
+We'll also want to add a migration so that the shipping contract can be deployed successfully.
+
+Right-click on the migrations directory and select New File. Name the migration **3_deploy_contracts.js**
+
+Add the contents to the migration file:
+
+var Shipping = artifacts.require("Shipping");
+module.exports = deployer => {
+    deployer.deploy(Shipping);
+};
+
+## Build and deploy
+
+Next, make sure that you can build and deploy the contract successfully before moving on.
+

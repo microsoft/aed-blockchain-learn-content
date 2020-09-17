@@ -57,3 +57,17 @@ Commands:
 
 See more at http://truffleframework.com/docs
 ```
+
+## Get started with using Truffle
+
+Now that Truffle is installed, let's use it to run the tests that were generated as part of our newSolidityProject.
+
+### Test the contract
+
+You can find the test file in test/HelloBlockchain.js. Take a look through the test file to try to understand what's being tested.
+
+1. In Visual Studio Code, go to Terminal -> New Terminal
+2. In the terminal type: `truffle test`
+In the terminal you will see which tests passed, and if any test failed (We will talk more about how to write tests in a later unit, but this gets you some exposure to running tests with Truffle.
+
+:::image type="content" source="media\truffle-test.png" alt-text="Run truffle test from the terminal":::

@@ -1,7 +1,7 @@
 ### YamlMime:ModuleUnit
 uid: 
 metadata:
-  title: "Exercise: Write a smart contract"
+  title: "Exercise: Install truffle"
   description: 
   ms.date: 
   author: 
@@ -11,4 +11,4 @@ metadata:
 title: 
 durationInMinutes: 
 content: |
-  [!include[](includes/5-write-contract.md)]
+  [!include[](includes/5-truffle.md)]
