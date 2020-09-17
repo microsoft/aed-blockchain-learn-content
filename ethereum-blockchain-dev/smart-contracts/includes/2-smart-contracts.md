@@ -4,15 +4,13 @@
 
 A smart contract is a program stored inside of a blockchain. Smart contracts extend blockchain from data to code. They represent an agreement between parties. The agreement is coded and when an action happens, the code is executed and provides a response.  
 
-All of the terms and conditions of the contracts are programmatically defined. The definition specifies the rules, requirements and rewards for those who participate in the blockchain, and how digital assets are transferred between parties. The code is assigned an address (just like your wallet has an address, addresses look like: 0x8E698aeA7d456d4A8D8d0485BDC390EFCebC56FA)
+All of the terms and conditions of the contracts are programmatically defined. The definition specifies the rules, requirements and rewards for those who participate in the blockchain, and how digital assets are transferred between parties. Each smart contract is assigned a 20 byte address that is used to uniquely identify it.
 
 They execute on their own, send events, call functions and more. They are perfect for blockchain technology because they allow parties that do not know one another to conduct business in a securely specified way without the use of a middleman.
 
-The most prominent use is with Ethereum, the worlds first programmable blockchain that allows for smart contracts to be defined to help facilitate the transfer of digital assets like Ether.
+The most prominent use for smart contracts is with Ethereum, the worlds first programmable blockchain, that allows for smart contracts to be defined to help facilitate the transfer of digital assets like Ether.
 
-They can also generate their own currency and tokens to transfer. And the use cases are expanding well beyond cryptocurrency.
-
- The language to write contracts in is Solidity. Smart contracts are Turing complete which means you can write complicated contracts that are defined and coded in a clear way.  
+ The language to write contracts in is Solidity. Solidity is Turing complete which means you can write complicated contracts that are defined and coded in a clear way.  
 
 Since every state transition is logged and immutable it is imperative that you thoroughly test the contract before going to production, because bug fixes can be very costly and even cause critical damage to the system.
 
@@ -20,7 +18,7 @@ The key properties and advantages of smart contracts are that they are:
 
 - **Transparent**: It is publicly readable by others on the blockchain and accessible via APIs
 - **Immutable**: Once a smart contract is created it cannot be changed again.
-- **Distributed**: Output of the contract is validated / verified by nodes on the network. Contract states can be publicly visible, and in some cases even “private” variables are visible.
+- **Distributed**: Output of the contract is validated and verified by nodes on the network. Contract states can be publicly visible, and in some cases even “private” variables are visible.
 
 ## Use cases
 

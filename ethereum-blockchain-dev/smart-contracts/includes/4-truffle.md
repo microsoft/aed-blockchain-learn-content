@@ -6,26 +6,12 @@ Truffle is the most popular development framework for Ethereum. It can easily be
 
 With Truffle, you get:
 
-- Built-in smart contract compilation, linking, deployment and binary management.
-- Automated contract testing for rapid development.
-Scriptable, extensible deployment & migrations framework.
+- Built-in smart contract building, compilation, deployment, testing and more.
 - Network management for deploying to any number of public & private networks.
-- Package management with EthPM & NPM, using the ERC190 standard.
+- Package management for dependencies
 - Interactive console for direct contract communication.
-Configurable build pipeline with support for tight integration.
+- Configurable build pipeline with support for tight integration.
 - External script runner that executes scripts within a Truffle environment.
-
-## Confirm that Node.js is installed
-
-Truffle requires that you have Node.js v8.9.4 or greater. With Node.js, you automatically get the Node package manager, referred to as npm, installed on your computer.
-
-To check if you have Node.js installed, run this command in your terminal:
-
-`node -v`
-
-To confirm that you have npm installed you can run this command in your terminal:
-
-`npm -v`
 
 ## Install Truffle
 
