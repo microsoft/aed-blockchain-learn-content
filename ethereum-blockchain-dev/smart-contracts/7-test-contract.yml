@@ -9,6 +9,6 @@ metadata:
   ms.topic: 
   ms.prod: 
 title: 
-durationInMinutes: 
+durationInMinutes: 8
 content: |
   [!include[](includes/7-test-contract.md)]

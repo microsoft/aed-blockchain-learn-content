@@ -9,6 +9,6 @@ metadata:
   ms.topic: 
   ms.prod: 
 title: Write your first contract
-durationInMinutes: 
+durationInMinutes: 4
 content: |
   [!include[](includes/6-write-your-first-contract.md)]

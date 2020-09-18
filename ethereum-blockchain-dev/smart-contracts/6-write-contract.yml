@@ -9,6 +9,6 @@ metadata:
   ms.topic: 
   ms.prod: 
 title: Introduction
-durationInMinutes: 
+durationInMinutes: 10
 content: |
   [!include[](includes/6-write-contract.md)]

@@ -9,6 +9,6 @@ metadata:
   ms.topic: 
   ms.prod: 
 title: 
-durationInMinutes: 
+durationInMinutes: 6
 content: |
   [!include[](includes/5-truffle.md)]
