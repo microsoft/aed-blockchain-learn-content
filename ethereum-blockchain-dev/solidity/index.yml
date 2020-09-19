@@ -1,0 +1,32 @@
+### YamlMime:Module
+uid: 
+metadata:
+  title: Learn how to use Solidity
+  description: # Meaghan to fill in please :)
+  ms.date: 
+  author: meaghanlewis
+  ms.author: shanama # This is shanama so content bugs get assigned to her first.
+  ms.topic: interactive-tutorial
+  ms.prod: azure
+title: Learn how to use Solidity
+summary: # Meaghan to fill in please :) # Add a short description for your module to be displayed to users. Can be the same as above.
+abstract:  |
+  In this module, you will:
+# - Learning objective 1
+# - Learning objective 2
+# - etc.
+prerequisites: | # Fill in a detailed list of prerequisites in this form
+#  - prereq 1
+#  - prereq 2
+iconUrl: https://docs.microsoft.com/media/learn/module.svg
+levels:
+- beginner
+roles:
+- developer
+- student
+products:
+- azure
+units:
+- 
+badge:
+  uid: 
