@@ -2,12 +2,12 @@
 uid: 
 metadata:
   title: Value Types
-  description: 
+  description: Learn about the primary value types you will use when working with Solidity.
   ms.date: 
   author: meaghanlewis
   ms.author: shanama
-  ms.topic: 
-  ms.prod: 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
 title: Value Types
 durationInMinutes: 3
 content: |

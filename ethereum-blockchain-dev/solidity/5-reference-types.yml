@@ -2,12 +2,12 @@
 uid: 
 metadata:
   title: Reference Types
-  description: 
+  description: Learn about the reference types available in Solidity.
   ms.date: 
   author: meaghanlewis
   ms.author: shanama
-  ms.topic: 
-  ms.prod: 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
 title: Reference Types
 durationInMinutes: 4
 content: |
