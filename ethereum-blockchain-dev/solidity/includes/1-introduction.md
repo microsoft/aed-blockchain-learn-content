@@ -18,4 +18,6 @@ By the end of this module, you will be able to:
 
 - Blockchain fundamentals knowledge
 - Ethereum platform knowledge
-- Familiarity with any programming language
+- Previous experience with any programming language like C, Python, or JavaScript
+- Basic knowledge of programming concepts
+- Familiarity with the command line to create new directories

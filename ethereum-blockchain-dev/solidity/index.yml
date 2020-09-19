@@ -11,11 +11,13 @@ metadata:
 title: Learn how to use Solidity
 summary: # Add a short description for your module to be displayed to users. Can be the same as above.
 abstract:  |
-  In this module, you will:
-# - Learning objective 1
-# - Learning objective 2
-# - etc.
+  In this module you will learn how to:
+  - Explain what Solidity is and how the features of the language work
+  - Understand the components of a smart contract
+  - Create a basic smart contract with Solidity
 prerequisites: | 
+  - Blockchain fundamentals knowledge
+  - Ethereum platform knowledge
   - Previous experience with any programming language like C, Python, or JavaScript
   - Basic knowledge of programming concepts
   - Familiarity with the command line to create new directories
