@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: 
 metadata:
-  title: "Exercise: Install truffle"
-  description: 
+  title: Exercise - Install Truffle
+  description: Install Truffle
   ms.date: 
   author: meaghanlewis
   ms.author: shanama
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: 
+title: Exercise - Install Truffle
 durationInMinutes: 6
 content: |
   [!include[](includes/5-truffle.md)]

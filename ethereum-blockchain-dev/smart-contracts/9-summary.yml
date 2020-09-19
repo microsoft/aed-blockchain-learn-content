@@ -2,13 +2,13 @@
 uid: 
 metadata:
   title: Summary
-  description:
+  description: Summary
   ms.date: 
   author: meaghanlewis
   ms.author: shanama
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: 
+title: Summary
 durationInMinutes: 1
 content: |
   [!include[](includes/9-summary.md)]

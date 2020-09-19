@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: 
 metadata:
-  title: "Exercise: Test your smart contract"
-  description: 
+  title: Exercise - Test your smart contract
+  description: Test your smart contract
   ms.date: 
   author: meaghanlewis
   ms.author: shanama
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: 
+title: Exercise - Test your smart contract
 durationInMinutes: 8
 content: |
   [!include[](includes/7-test-contract.md)]
