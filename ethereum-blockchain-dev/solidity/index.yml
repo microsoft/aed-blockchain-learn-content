@@ -5,7 +5,7 @@ metadata:
   description: # Add a short description for your module for search engines.
   ms.date: 
   author: meaghanlewis
-  ms.author: shanama # This is shanama so content bugs get assigned to her first.
+  ms.author: shanama
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Learn how to use Solidity
