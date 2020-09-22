@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: 
 metadata:
-  title: Reference Types
+  title: Explore reference types
   description: Learn about the reference types available in Solidity.
   ms.date: 
   author: meaghanlewis
   ms.author: shanama
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Reference Types
+title: Explore reference types
 durationInMinutes: 4
 content: |
   [!include[](includes/5-reference-types.md)]

@@ -2,14 +2,14 @@
 uid: ""
 metadata:
   title: Use Solidity to write Ethereum smart contracts
-  description: # Add a short description for your module for search engines.
+  description: Install and use tools that help make smart contract development easier.
   ms.date: 
   author: meaghanlewis
   ms.author: shanama
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Use Solidity to write Ethereum smart contracts
-summary: # Add a short description for your module to be displayed to users. Can be the same as above.
+summary: Install and use tools that help make smart contract development easier.
 abstract:  |
   By the end of this module you will be able to:
   - Explain what smart contracts are

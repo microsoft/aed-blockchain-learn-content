@@ -2,14 +2,14 @@
 uid: ""
 metadata:
   title: Learn how to use Solidity
-  description: # Add a short description for your module for search engines.
+  description: Discover how Solidity can make it easy to program smart contracts for the Ethereum blockchain platform.
   ms.date: 
   author: meaghanlewis
   ms.author: shanama
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Learn how to use Solidity
-summary: # Add a short description for your module to be displayed to users. Can be the same as above.
+summary: Discover how Solidity can make it easy to program smart contracts for the Ethereum blockchain platform.
 abstract:  |
   In this module you will learn how to:
   - Explain what Solidity is and how the features of the language work
