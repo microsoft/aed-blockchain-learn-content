@@ -15,8 +15,8 @@
 
 - What is an example of a user-defined type in Solidity?
 
-  - State variables // incorrect. State variables use defined types like uint, int, bool, and addresses to hold values that are used in contracts.
   - Structs // correct. Structs are user-defined because you can define the collection of items within a struct.
+  - State variables // incorrect. State variables use defined types like uint, int, bool, and addresses to hold values that are used in contracts.
   - Addresses // incorrect. Addresses are 20 byte value types that represent an Ethereum user account. A value is specified for a given address type.
   - Arrays //incorrect. Arrays use defined types to store a collection of similar items of same type in a data structure.
 

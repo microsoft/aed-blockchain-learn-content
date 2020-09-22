@@ -26,7 +26,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 5. Exercise: Install truffle
 6. Exercise: Write a smart contract
 7. Exercise: Test your smart contract
-9. Knowledge check
+8. Knowledge check
 9. Summary
 
 **Status:** In progress
