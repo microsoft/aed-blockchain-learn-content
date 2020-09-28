@@ -1,6 +1,10 @@
 # Summary
 
-- True or false: Smart contracts are used to facilitate the transfer of cryptocurrency from one account to another primarily
+- What are smart contracts?
+  - Programs to send cryptocurrency
+  - Programs stored inside of a blockchain that represent an agreement  between parties
+  - Programs that generate tokens
+  - 
 
   - True //incorrect. This can happen through the use of smart contracts, but that is not the primary purpose
   - False // correct. Smart contracts help to facilitate the transfer of digital assets. Some type of currency or coin is typically involved in transfer of assets, but not all smart contracts need include currency.
