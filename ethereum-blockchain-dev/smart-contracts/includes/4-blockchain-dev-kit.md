@@ -21,6 +21,9 @@ Once you have all the dependencies installed, you can now use the Blockchain Dev
 :::image type="content" source="media\new-solidity-project-selection.png" alt-text="Select New Solidity project option":::
 
 4. For the type of solidity project, select **Create basic project**.
+
+:::image type="content" source="media\create-basic-project.png" alt-text="Create basic project":::
+
 5. Use the UI file explorer pop up to find the folder you created in step 1. Select the folder and in the bottom right-hand of the window you'll see **Creating new project**
 6. Sit back and wait for your new Solidity project to be created.
 
@@ -39,7 +42,9 @@ You'll also have some other config files:
 - **package.json:** To define project details and dependencies
 - **truffle-config.json:**. To define dependencies and configuration for Truffle
 
-For now we will only focus on the **contracts/** directory.
+Go ahead and go to `File -> Save Workspace As...` and save the workspace with name **newsolidityproject**.
+
+Then focus your attention back to the project itself. For now we will only focus on the **contracts/** directory.
 
 ## Compile the contracts
 
@@ -51,6 +56,10 @@ Right click HelloBlockchain.sol
 3. Select View -> Output to see information about the compiled contract. Note: In the dropdown window you may need to select "Azure Blockchain" to see output from the extension
 
 :::image type="content" source="media\build-contracts.png" alt-text="Build contracts":::
+
+In the output window (View -> Output) you can see information about the contracts compilation:
+
+:::image type="content" source="media\compile-output.png" alt-text="Build contracts output":::
 
 ## Deploy contracts
 

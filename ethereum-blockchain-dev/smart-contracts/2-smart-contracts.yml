@@ -9,6 +9,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Learn what smart contracts are
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
   [!include[](includes/2-smart-contracts.md)]
