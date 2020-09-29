@@ -9,6 +9,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Exercise - Write your first contract
-durationInMinutes: 5
+durationInMinutes: 7
 content: |
   [!include[](includes/6-write-your-first-contract.md)]
