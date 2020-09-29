@@ -90,7 +90,7 @@ From the terminal type: `truffle test`
 
 You should see all tests successfully passing:
 
-```
+```nodejs
   Contract: HelloBlockchain
     ✓ testing ResponseMessage of HelloBlockchain
     ✓ testing Responder of HelloBlockchain

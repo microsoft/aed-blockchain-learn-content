@@ -4,7 +4,7 @@ The use of smart contracts is growing as blockchain continues to evolve. In this
 
 It's an exciting time as we are starting to see more real-world applications of blockchain in nearly every industry imaginable.
 
-As developers are more drawn to blockchain and want to create their own applications, it's necessary that they know how to use Solidity to create and test smart contracts. It's also useful if they are aware of the great, and free development tools available to manage blockchain applications.
+As developers are more drawn to blockchain and want to create their own applications, it's necessary that they know how to use Solidity to create and test smart contracts. It's also useful if developers are aware of the great, and free development tools available to manage blockchain applications.
 
 ## Learning Objectives
 
