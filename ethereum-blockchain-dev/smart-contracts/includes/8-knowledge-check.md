@@ -9,12 +9,12 @@
   - True //incorrect. This can happen through the use of smart contracts, but that is not the primary purpose
   - False // correct. Smart contracts help to facilitate the transfer of digital assets. Some type of currency or coin is typically involved in transfer of assets, but not all smart contracts need include currency.
 
-- When you create a new project with the Blockchain Development Kit for Ethereum, what is automatically generated in the project folder:
+- When you create a new project with the Blockchain Development Kit for Ethereum, what is automatically generated in the project folder?
+  - Sample contract, migration, a test, and a truffle config file.
+  - An initial contract file written in Solidity.
+  - A build directory and files to compile and deploy the Solidity project.
+  - Folders for contracts, migrations, and tests.
 
-  - A contracts directory // incorrect
-  - A tests directory // incorrect
-  - A migrations directory // incorrect
-  - All of the above // correct
 
 - Select the option that best completes this sentence: Truffle is:
 

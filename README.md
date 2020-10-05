@@ -15,7 +15,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 7. Knowledge check
 8. Summary
 
-**Status:** In progress
+**Status:** In review
 
 ### Module: Use Solidity to write Ethereum smart contracts
 
@@ -29,7 +29,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 8. Knowledge check
 9. Summary
 
-**Status:** In progress
+**Status:** In review
 
 ### Module: Create a bank smart contract with exchange rate
 
@@ -41,7 +41,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 6. Knowledge check
 7. Summary
 
-**Status:** Planning
+**Status:** In progress
 
 ### Module: Create a decentralized application
 
