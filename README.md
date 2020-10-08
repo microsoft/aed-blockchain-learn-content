@@ -17,7 +17,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 
 **Status:** In review
 
-### Module: Use Solidity to write Ethereum smart contracts
+### Module: Write Ethereum smart contracts by using Soliidity
 
 1. Introduction
 2. Learn what smart contracts are
@@ -31,6 +31,19 @@ This repo contains all the content for development of blockchain Learn modules. 
 
 **Status:** In review
 
+### Module: Create tokens using OpenZeppelin
+
+1. Introduction
+2. Learn about tokens
+3. Understand token types
+4. Learn about OpenZeppelin
+5. Get setup with OpenZeppelin
+6. Write a token contract
+7. Knowledge check
+8. Summary
+
+**Status:** In progress
+
 ### Module: Create a bank smart contract with exchange rate
 
 1. Introduction
@@ -41,7 +54,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 6. Knowledge check
 7. Summary
 
-**Status:** In progress
+**Status:** Planning
 
 ### Module: Create a decentralized application
 
