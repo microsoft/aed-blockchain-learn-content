@@ -1,4 +1,4 @@
-# Write a token contract using OpenZeppelin contracts
+# Setup a new project and integrate OpenZeppelin
 
 And now let’s look at how to incorporate an ERC20 token in our contracts.
 
@@ -42,6 +42,8 @@ That will open a utility that walks you through the process to create a package.
 
 ## Setup OpenZeppelin
 
+:::image type="content" source="../media/contract-library.png" alt-text="Visit OpenZeppelin to find out how to install the contracts library":::
+
 In the terminal window, type:
 `npm install @openzeppelin/contracts`
 
@@ -51,39 +53,3 @@ Notice that a couple things happened:
 
 1. The package was added as a dependency in the package.json file
 1. There is a node_modules directory that has imported all of the available contracts from OpenZeppelin.
-
-## Create the new token contract
-
-Now, let's add a new smart contract to the project. Hover over the contracts folder in the Explorer and select the New File option. Save the file name as: `Token20.sol`. Copy the contents from below to that contract.
-
-```solidity
-pragma solidity ^0.6.0;
-
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
-contract Token20 is ERC20 {
-
-    event LogNewAlert(string description, address indexed _from, uint256 _n);
-
-    constructor() ERC20("T20", "T20") public {
-        _mint(msg.sender, 1000);
-    }
-
-    function _reward() public {
-        emit LogNewAlert('_rewarded', block.coinbase, block.number);
-        _mint(block.coinbase, 20);
-    }
-}
-```
-
-## What this all means
-
-Now, let's walk through the parts of this contract. We begin with importing the contract from OpenZeppelin that we want to use on line 3 after the pragma directive. This notation allows the contract to find the ERC20 contract definition we'll use in our own contract.
-
-## Wrap up
-
-That was a lot that we covered in that example. The important thing to remember is that the term “token” is simply a metaphor. It refers to assets and/or access rights that are collectively managed by a network of computers, or a blockchain network.
-
-Tokens are an important part of incorporating into your network.
-
-To get more familiar with tokens, explore the other token contracts available from OpenZeppelin.
