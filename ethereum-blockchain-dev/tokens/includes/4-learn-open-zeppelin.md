@@ -12,13 +12,15 @@ With the [contracts library](https://openzeppelin.com/contracts), you can access
 
 OpenZeppelin is the most popular library source in the industry for smart contracts, and it’s open-sourced. Using these contracts will allow you to learn the best practices for developing smart contracts. There are a variety of contract types available such as:
 
-- Access Control: decide who can perform actions
-- Tokens: create tradable assets
-- Gas station Network: let your users use contracts without having to pay for the gas
-- Utilities: generic useful tools
+- **Access Control**: decide who can perform actions
+- **Tokens**: create tradable assets
+- **Gas station Network**: let your users use contracts without having to pay for the gas
+- **Utilities**: generic useful tools
+
+While we will only be using the token contracts in this module, it's good to be aware of the other contract resources available.
 
 ## SDK
 
 The other product that OpenZeppelin provides is the [SDK](https://openzeppelin.com/sdk/), which makes it easier to manage smart contract development with the command line interface (CLI). You can save hours of development time by using the CLI to compile, upgrade, and deploy smart contracts. The CLI provides support for Ethereum and other Ethereum Virtual Machine powered blockchains. The commands are intuitive and interactive to help guide you along the development process.
 
-For a reference of all that the CLI provides, visit: https://docs.openzeppelin.com/cli/2.8/.
+For this module, we will not be using the SDK, however this is a tool you can consider using for future blockchain development.
