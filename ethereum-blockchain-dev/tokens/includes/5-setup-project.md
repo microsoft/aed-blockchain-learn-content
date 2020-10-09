@@ -1,4 +1,4 @@
-# Setup a new project and integrate OpenZeppelin
+# Exercise: Setup a new project and integrate OpenZeppelin
 
 Now let’s look at how to incorporate an ERC20 token in our contracts.
 

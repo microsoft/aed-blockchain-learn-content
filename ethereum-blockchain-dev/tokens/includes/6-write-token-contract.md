@@ -1,4 +1,4 @@
-# Write an ERC20 token contract
+# Exercise: Write an ERC20 token contract
 
 Now, let's add a new token smart contract to the project.
 

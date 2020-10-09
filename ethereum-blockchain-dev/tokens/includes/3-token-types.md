@@ -1,4 +1,4 @@
-# Token types
+# Token standards
 
 [Ethereum Improvement Proposals](https://eips.ethereum.org/) (EIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards. What this means is that community members can make proposals of new standards for every part of the platform.
 

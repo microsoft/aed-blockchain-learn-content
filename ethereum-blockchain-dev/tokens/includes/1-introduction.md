@@ -11,7 +11,7 @@ By the end of this module, you will be able to:
 - Explain what tokens are
 - Identify the different types of tokens
 - Learn about the contract library OpenZeppelin
-- Create a smart contract that uses tokens
+- Create a token smart contract
 
 ## Prerequisites
 
