@@ -6,6 +6,8 @@
 
 There are two different products that OpenZeppelin provides- the contracts library and the SDK.
 
+:::image type="content" source="../media/open-zeppelin.png" alt-text="Visit OpenZeppelin to find out about the two products it provides.":::
+
 ## Contracts
 
 With the [contracts library](https://openzeppelin.com/contracts), you can access a robust set of modular and reusable smart contracts for the Ethereum network, written in Solidity. The benefits of using these contracts is that they have been thoroughly tested, audited and community reviewed.
