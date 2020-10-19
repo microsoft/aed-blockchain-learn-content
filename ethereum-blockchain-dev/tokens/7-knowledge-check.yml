@@ -17,16 +17,16 @@ quiz:
     choices:
     - content: "They represent currency that can be tradable."
       isCorrect: false
-      explanation: "Tokens are tradable but often represent much more than currency."
+      explanation: "Tokens are tradable but often represent much more than currency. They can also represent ownership, access, or be traded for a service in return."
     - content: "They represent digital assets that have some value and are tradable."
       isCorrect: true
-      explanation: "Correct."
+      explanation: "Correct. Tokens have some value and represent either virtual or real-world, tangible objects."
     - content: "They are physical tokens that can be used to trade on a blockchain network."
       isCorrect: false
-      explanation: ""
+      explanation: "Tokens are digital, however they can represent virtual or physical objects."
     - content: "They are unique assets that identify ownership."
       isCorrect: false
-      explanation: ""
+      explanation: "While tokens can identify ownership, say in the example of property, tokens can also represent many other digital objects."
 
   - content: "What type of token is most commonly used solely for nun-fungible assets?"
     choices:
@@ -47,13 +47,13 @@ quiz:
     choices:
     - content: "CLI."
       isCorrect: false
-      explanation: "."
+      explanation: "The CLI, often referred to as the SDK, is used to develop, deploy, and manage smart contract projects."
     - content: "SDK."
       isCorrect: false
-      explanation: "."
+      explanation: "The SDK, is used to develop, deploy, and manage smart contract projects."
     - content: "Contracts."
       isCorrect: true
-      explanation: "Correct."
+      explanation: "Correct. The contracts library provides a set of modular and reusable contracts to integrate into new and existing blockchain projects."
     - content: "Test helpers."
       isCorrect: false
-      explanation: "."            
+      explanation: "The test helpers is an assertion library for Ethereum smart contract testing."            

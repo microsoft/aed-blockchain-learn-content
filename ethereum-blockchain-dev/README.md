@@ -10,4 +10,3 @@ Module Titles:
 4. Create a bank smart contract with exchange rate
 5. Create a decentralized application
 6. Learn how to deploy to Ethereum networks
-

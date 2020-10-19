@@ -9,6 +9,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Learn about OpenZeppelin
-durationInMinutes: 5
+durationInMinutes: 8
 content: |
   [!include[](includes/5-setup-project.md)]

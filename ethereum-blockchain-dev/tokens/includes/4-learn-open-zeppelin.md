@@ -25,4 +25,4 @@ While we will only be using the token contracts in this module, it's good to be 
 
 The other product that OpenZeppelin provides is the [SDK](https://openzeppelin.com/sdk/), which makes it easier to manage smart contract development with the command line interface (CLI). You can save hours of development time by using the CLI to compile, upgrade, and deploy smart contracts. The CLI provides support for Ethereum and other Ethereum Virtual Machine powered blockchains. The commands are intuitive and interactive to help guide you along the development process.
 
-For this module, we will not be using the SDK, however this is a tool you can consider using for future blockchain development.
+For this module, we will not be using the SDK, however this is a tool you can consider exploring on your own and using for future blockchain development.

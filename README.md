@@ -35,7 +35,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 
 1. Introduction
 2. Learn about tokens
-3. Learn about contract standards
+3. Explore token standards
 4. Learn about OpenZeppelin
 5. Exercise: Setup a new project and integrate with OpenZeppelin
 6. Exercise: Write a token contract
