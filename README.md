@@ -15,7 +15,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 7. Knowledge check
 8. Summary
 
-**Status:** In review
+**Status:** Live
 
 ### Module: Write Ethereum smart contracts by using Soliidity
 
@@ -29,7 +29,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 8. Knowledge check
 9. Summary
 
-**Status:** In review
+**Status:** Live
 
 ### Module: Create tokens using OpenZeppelin
 
@@ -54,7 +54,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 6. Knowledge check
 7. Summary
 
-**Status:** Planning
+**Status:** On hold
 
 ### Module: Create a decentralized application
 
