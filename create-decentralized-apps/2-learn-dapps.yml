@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: 
 metadata:
-  title: Learn about decentralized apps
+  title: Learn about dapps
   description: Understand the importance of dapps for the Ethereum blockchain
   ms.date: 
   author: meaghanlewis
   ms.author: shanama
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Learn about decentralized apps
+title: Learn about dapps
 durationInMinutes: 1
 content: |
-  [!include[](includes/1-introduction.md)]
+  [!include[](includes/2-learn-dapps.md)]

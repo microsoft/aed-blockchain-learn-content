@@ -59,14 +59,12 @@ This repo contains all the content for development of blockchain Learn modules. 
 ### Module: Create a decentralized application
 
 1. Introduction
-2. Understand decentralized applications
-3. Learn the options to build decentralized applications
-4. What frontend UI framework you need to know
-5. Exercise: Create the app
-6. UI/UX best practices
-7. Integrate with your smart contracts
-8. Knowledge check
-9. Summary
+2. Learn about dapps
+3. Learn the technologies for building dapps
+4. Exercise - Get started with Drizzle
+5. Exercise - Create a dapp for a shipping contract
+6. Knowledge check
+7. Summary
 
 **Status:** Planning
 
