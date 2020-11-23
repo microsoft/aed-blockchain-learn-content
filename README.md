@@ -42,7 +42,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 7. Knowledge check
 8. Summary
 
-**Status:** In progress
+**Status:** Live
 
 ### Module: Create a bank smart contract with exchange rate
 
@@ -66,7 +66,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 6. Knowledge check
 7. Summary
 
-**Status:** Planning
+**Status:** In progress
 
 ### Module: Learn how to deploy to Ethereum networks
 
