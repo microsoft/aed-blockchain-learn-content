@@ -27,4 +27,3 @@ Outside of providing a way for users to interact with the blockchain network in 
 - **Censorship resistance** no entity on the network can prevent users from using the dapp in any way.
 - **Data integrity** since data stored on the blockchain is immutable, it is not possible for bad actors to modify or falsify data and transactions.
 - **Verifiable behavior** smart contracts and their dapps are guaranteed to execute in a predictable way without a central authority.
-
