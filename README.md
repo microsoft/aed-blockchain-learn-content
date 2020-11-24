@@ -44,18 +44,6 @@ This repo contains all the content for development of blockchain Learn modules. 
 
 **Status:** Live
 
-### Module: Create a bank smart contract with exchange rate
-
-1. Introduction
-2. Use advanced Solidity data structures
-3. Understand how oracles work in blockchain
-4. Exercise: TBD
-5. Exercise: TBD
-6. Knowledge check
-7. Summary
-
-**Status:** On hold
-
 ### Module: Create a decentralized application
 
 1. Introduction
@@ -70,14 +58,27 @@ This repo contains all the content for development of blockchain Learn modules. 
 
 ### Module: Learn how to deploy to Ethereum networks
 
-1. What is Ethereum
-2. Types of networks
-3. Exercise: Connect to a network
-4. Exercise: Deploy to a network
-5. Knowledge check
-6. Summary
+1. Introduction
+1. Overview of public Ethereum networks (mainnet, testnet)
+1. Overview of private Ethereum networks (development, consortium)
+1. Exercise: Connect to a test network and use the faucet
+1. Exercise: Deploy to a network
+1. Knowledge check
+1. Summary
 
 **Status:** Planning
+
+### Module: Create a bank smart contract with exchange rate
+
+1. Introduction
+2. Use advanced Solidity data structures
+3. Understand how oracles work in blockchain
+4. Exercise: TBD
+5. Exercise: TBD
+6. Knowledge check
+7. Summary
+
+**Status:** On hold
 
 ## Contributing
 
