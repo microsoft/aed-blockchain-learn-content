@@ -1,6 +1,6 @@
 # Learn about Drizzle
 
-In past modules, we have introduced the [Truffle Suite](https://www.trufflesuite.com/), a set of tools to make blockchain development easier. And we have used [Truffle](https://www.trufflesuite.com/truffle) and [Ganache CLI](https://www.trufflesuite.com/ganache) previously to help with the development, deployment and testing of smart contracts.
+In past modules, we have introduced the [Truffle Suite](https://www.trufflesuite.com/), a set of tools to make blockchain development easier. And we have previously used [Truffle](https://www.trufflesuite.com/truffle) and [Ganache CLI](https://www.trufflesuite.com/ganache) previously to help with the development, deployment and testing of smart contracts.
 
 In this unit, we will introduce the next member of the Truffle Suite, [Drizzle](https://www.trufflesuite.com/drizzle). Drizzle is a collection of front-end libraries that make writing dapp user interfaces easier and more predictable.
 

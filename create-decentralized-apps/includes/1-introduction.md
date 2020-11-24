@@ -2,7 +2,7 @@
 
 Blockchain products are useful for a variety of use cases ranging from supply-chain management to decentralized finance. Blockchain technology is being used across major markets and geographies. As the utilization of blockchain has increased and evolved, so has the development of blockchain applications.
 
-Decentralized apps, or dapps, are user interface applications that have code running on a blockchain network. A dapp has frontend code and UI that is hooked up in the backend to smart contracts.
+Decentralized apps, or dapps, are applications that have code running on a blockchain network. A dapp has frontend code and graphical user interface that is hooked up in the backend to smart contracts.
 
 In this module, you'll learn all about dapps and how to build your own.
 
