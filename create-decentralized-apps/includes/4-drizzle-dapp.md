@@ -42,7 +42,7 @@ We'll want to compile, migrate, and test these contracts first before exploring 
 1. Open up another terminal window by right-clicking into the terminal and selecting **New Terminal**.
 1. In that new terminal window, type `truffle compile` to compile the contracts. Wait for the compilation to successfully complete.
 1. Once the compilation is complete, you can now test the contracts. The Truffle box comes with the file **simplestorage.js** for testing the **Simple Storage** smart contract. In the terminal window, type: `truffle test`.
-1. After the tests successfully run, you can now deploy the contracts. The migrations folder has JavaScript files that help you deploy contracts to the network of your choice.**2_deploy_contracts.js** located in the migrations folder will migrate the smart contracts in this project. Type `truffle migrate`. Then wait for the migration to successfully complete.
+1. After the tests successfully run, you can now deploy the contracts. The migrations folder has JavaScript files that help you deploy contracts to the network of your choice.**2_deploy_contracts.js** located in the migrations folder will migrate the smart contracts in this project. Type `truffle migrate --network develop`. Then wait for the migration to successfully complete.
 
 ## Explore the dapp components
 
@@ -73,17 +73,11 @@ Drizzle store.
 ## Run the dapp
 
 1. Focusing your attention back on the terminal window, run the following commands:
-- `cd app`
-- `npm rebuild`
-- `npm run start`
 
-> ![](media\image22.png)
-This command starts the web-pack dev server for React and opens up a new
-browser window for the React project which should result in the image
-below. Once this has been tested, close it by either closing the
-terminal window or \<ctrl-c\>. This confirms that react was correctly
-installed. React starts a web browser on
-[http://localhost:3000](http://localhost:3000) and automatically
-opens a browser window.
+- `cd app` to move into the app/ folder
+- `npm rebuild` to run the build and recompile changes in the app/ folder
+- `npm run start` to start the web-pack dev server for React and opens up a new browser window for the React project.
 
-![](media\image23.png)
+Your browser should now open with a window showing a dapp where you can interact with the contracts: SimpleStorage, TutorialToken, and ComplexStorage.
+
+:::image type="content" source="media\drizzle-dapp.png" alt-text="Image showing the dapp that is generated from the Drizzle box":::

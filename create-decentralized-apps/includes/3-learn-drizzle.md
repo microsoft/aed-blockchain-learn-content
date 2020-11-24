@@ -17,6 +17,7 @@ There are three core packages:
 - **drizzle** The core library responsible for account and contract instantiation and wiring up the smart contracts.
 - **drizzle-react** Makes it easier to connect Drizzle with your React app.
 - **drizzle-react-components** A library of useful components for common dapp functions
+
 :::image type="content" source="media\modular-overview.png" alt-text="Image showing the Drizzle's architecture overview":::
 
 ### Underlying technologies
