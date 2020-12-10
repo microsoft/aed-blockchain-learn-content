@@ -66,7 +66,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 1. Knowledge check
 1. Summary
 
-**Status:** Planning
+**Status:** In progress
 
 ### Module: Create a bank smart contract with exchange rate
 
