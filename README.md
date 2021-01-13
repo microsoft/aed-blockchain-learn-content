@@ -54,7 +54,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 6. Knowledge check
 7. Summary
 
-**Status:** In progress
+**Status:** Live
 
 ### Module: Learn how to deploy to Ethereum networks
 

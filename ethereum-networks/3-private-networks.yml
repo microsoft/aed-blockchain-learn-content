@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: 
+metadata:
+  title: Learn about private Ethereum networks
+  description: Get an overview of the private networks available including testnets and mainnet.
+  ms.date: 
+  author: meaghanlewis
+  ms.author: shanama
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Learn about public Ethereum networks
+durationInMinutes: 1
+content: |
+  [!include[](includes/3-private-networks.md)]
