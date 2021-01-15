@@ -1,38 +1,26 @@
-# Develop a todo list and deploy to development
+# Exercise - Develop a todo list and deploy to development
 
-## Dependencies:
+In this exercise, you'll be developing a simple task manager and utilize it to connect and deploy on the **Ropsten** test networks.
 
-- js
-- Truffle
-- VS code
-- MetaMask
-- Infura
-- HDWalletProvider
+In the first part of this exercise, let's focus on creating the project, adding a smart contract, and then deploying to a development network.
 
-**Task:**
-Develop a simple task manager and utilize it to connect and deploy on the **Ropsten** Test Networks. For this tutorial, we will deploy to **Ropsten** using **MetaMask** with test-ether. The process for deploying requires setting up an [Infura](http://www.infura.io/) account. We will use the [TruffleSuite](https://www.trufflesuite.com/) development tools and VS Code to create, compile and deploy the smart contract first to a development network and then to the **Ropsten** testnet. Once deployed, we can use [**ropsten.etherscan.io**](https://ropsten.etherscan.io/) to inspect the blocks which have been deployed to the testnet.
+For this tutorial, we'll use:
 
-The previous modules in this series walk through the entire development and deployment process for creating an Ethereum Dapp, Web front end and deploying it to a Development Network and interacting with it using **MetaMask** , **TruffleSuite** and **Drizzle** from within the **VS Code** development environment.
+- Visual Studio Code to create our project.
+- [TruffleSuite](https://github.com/trufflesuite) to compile and deploy.
+- [Ganache CLI](https://github.com/trufflesuite/ganache-cli) as the blockchain development server.
 
-Rather than focus on front end development and other aspects building a Dapp, this tutorial is focused on the deployment of a smart contract to an ethereum testnet.
+## Create a new Truffle project
 
-The [TruffleSuite](https://github.com/trufflesuite) toolkit provides support for deploying to different networks and the configuration file, truffle-config.js, provides the template for connecting to multiple networks. Previously, we have been using a development network.
+1. Open a terminal or command prompt window and create a new directory called *todolist* by typing: **mkdir todolist**.
 
-**Steps:**
+2. Navigate to the newly created directory by typing: **cd todolist**.
 
-1. Create a new directory: $ mkdir todolist
+3. Initialize the directory as a Truffle project by typing: **truffle init**.
 
-2. Navigate to the new directory: $ cd todolist
+4. Open the *todolist* folder in Visual Studio Code.
 
-3. Initialize the directory as a Truffle project. $ truffle init
-
-4. Open the project in Visual Studio Code. Then from within VS CCode, open the folder **todolist**.
-
-The directory structure should look like:
-
-![](./Images/TodoList_Directory_Structure1.png)
-
-5. From within VS Code, create the file in the contracts directory **TodoList.sol** and copy in the following code:
+5. From within VS Code, create a file in the contracts directory named **TodoList.sol** and copy in the following code:
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -80,17 +68,19 @@ contract TodoList {
 }
 ```
 
-6. Create a migration for the todo.sol list in the **./migrations** folder by creating a new file called **2\_deploy\_contracts.js** and copy in the following code into that file to deploy the TodoList smart contract:
+## Migrate and deploy to development
+
+1. Create a migration for *TodoList.sol* in the **migrations/** folder by creating a new file called **2_deploy_contracts.js** and copy in the following code into that file to deploy the TodoList smart contract:
 
 ```javascript
-var TodoList = artifacts.require(&quot;./TodoList.sol&quot;);
+var TodoList = artifacts.require("./TodoList.sol";);
 
 module.exports = function(deployer) {
-	deployer.deploy(TodoList);
+    deployer.deploy(TodoList);
 };
 ```
 
-7. In the main project directory, open **./truffle-config.js** and un-comment the code to deploy on the **development network** which will be deployed to localhost port **8545**. If you prefer to use the ganache app, use port **7545** instead.
+2. In the main project directory, open **./truffle-config.js** and un-comment the code to deploy on the development network which will be deployed to localhost port **8545**. Your code should look as follows:
 
 ```javascript
  networks: {
@@ -102,9 +92,11 @@ module.exports = function(deployer) {
  },
 ```
 
-8. Open a terminal window and start up a development blockchain using **ganache-cli**: $ ganache-cli
+3. Open a terminal window within VS COde and start up a development blockchain using ganache-cli by typing: **ganache-cli**.
 
-9. In Visual Studio Code, open a terminal window to compile and migrate the TodoList contract to the development network by running: `truffle compile` and then
-`truffle migrate --reset`
+4. In Visual Studio Code, open a terminal window to compile and migrate the TodoList contract to the development network by running the following:
+
+- `truffle compile`
+- `truffle migrate --reset`
 
 This will deploy the smart contracts to the development network. At this point, test your contract using the truffle console, inspect and modify the smart contracts. Below we can see that we created a single task when initializing the task list. Using **truffle console**, you can continue to interact with the contract, creating and setting tasks and toggling their status.

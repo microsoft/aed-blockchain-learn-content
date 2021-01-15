@@ -8,7 +8,7 @@ metadata:
   ms.author: shanama
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Learn about public Ethereum networks
-durationInMinutes: 1
+title: Learn about private Ethereum networks
+durationInMinutes: 3
 content: |
   [!include[](includes/3-private-networks.md)]
