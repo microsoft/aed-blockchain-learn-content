@@ -200,7 +200,7 @@ Summary
 
 Inspect Metamask to verify that the ether used to deploy the contract
 
-![](./Images/Metamask_balance_after_deploying_to Ropsten.png)
+source="media\Metamask_balance_after_deploying_to Ropsten.png" alt-text="Screenshot showing the Metamask balance after deploying to Ropsten":::
 
 ## On Ropsten Etherscan
 
