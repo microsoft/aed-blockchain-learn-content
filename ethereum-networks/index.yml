@@ -39,9 +39,9 @@ units:
 - learn.reactors.blockchain-.1-introduction
 - learn.reactors.blockchain-.2-public-networks
 - learn.reactors.blockchain-.3-private-networks
-- learn.reactors.blockchain-.4-connect-test-network
-- learn.reactors.blockchain-.5-deploy-test-network
-- learn.reactors.blockchain-.6-knowledge-check
-- learn.reactors.blockchain-.7-summary
+- learn.reactors.blockchain-.4-prepare-for-mainnet
+- learn.reactors.blockchain-.5-develop-deploy-development
+- learn.reactors.blockchain-.6-deploy-ropsten-network
+- learn.reactors.blockchain-.8-summary
 badge:
   uid: learn.reactors.blockchain-.badge
