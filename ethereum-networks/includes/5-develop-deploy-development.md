@@ -7,7 +7,7 @@ In the first part of this exercise, let's focus on creating the project, adding 
 For this tutorial, we'll use:
 
 - Visual Studio Code to create our project.
-- [TruffleSuite](https://github.com/trufflesuite) to compile and deploy.
+- [Truffle](https://www.trufflesuite.com/truffle) to compile and deploy.
 - [Ganache CLI](https://github.com/trufflesuite/ganache-cli) as the blockchain development server.
 
 ## Create a new Truffle project

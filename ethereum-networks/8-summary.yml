@@ -25,10 +25,10 @@ quiz:
       explanation: "Incorrect. Ropsten supports Geth and OpenEthereum clients."
     - content: "Kovan."
       isCorrect: false
-      explanation: "Incorrect. Ropsten supports Geth and OpenEthereum clients."
+      explanation: "Incorrect. Ropsten supports OpenEthereum clients."
     - content: "Görli."
       isCorrect: false
-      explanation: "Incorrect. Görli supports multiple clients like Geth, Pantheon, Nethermind, and OpenEthereum"
+      explanation: "Incorrect. Görli supports multiple clients like Geth, Nethermind, and OpenEthereum"
   - content: "Which of the following is necessary to prepare for mainnet deployment?"
     choices:
     - content: "Verifying source code."
@@ -39,7 +39,7 @@ quiz:
       explanation: "Incorrect. Smart contract testing should happen during development, but it is not required."
     - content: "Key distribution to project managers"
       isCorrect: false
-      explanation: "Incorrect. Keys should be stored securely and only those who absolutely need them should be able to access them."
+      explanation: "Incorrect. Keys should be stored securely and only shared with those who govern or administrate the project."
     - content: "Documentation for smart contracts and dapps."
       isCorrect: false
       explanation: "Incorrect. Documentation for the blockchain solution is helpful, but not required."

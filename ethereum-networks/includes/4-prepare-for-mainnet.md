@@ -1,10 +1,10 @@
 # Prepare for deployment to mainnet
 
-Prior to deploying to the Ethereum mainnet, it's imperative to fully test and audit your code. Adding blocks to the mainnet requires real Ether which costs real money! In addition, security flaws can be devastating. There have been several very well documented hacks including the famous [DAO Attack](https://www.coindesk.com/understanding-dao-hack-journalists) but there have been many others.
+Prior to deploying to the Ethereum mainnet, it's necessary to fully test and audit your code. Working mainnet requires real Ether which costs real money and can add up quickly!
 
-After developing, testing and auditing your code and running the project on at least one testnet without any problems, most projects follow a substantial auditing, testing, security and governance process before actually deploying to mainnet.
+After developing, testing and auditing your code and running the project on at least one testnet without any problems, most projects follow a substantial auditing, testing, security and governance process before deploying to mainnet. This is done to minimize the risks and costs of things going wrong in mainnet.
 
-The process for preparing for mainnet and deploying to mainnet requires a series of steps. The basic steps for deploying to the Ethereum mainnet include:
+The process for preparing for mainnet and deploying to mainnet requires a series of steps. The basic steps for deploying to the Ethereum mainnet include: auditing smart contracts, verifying source code, managing keys, and handling project governance. The sections below describes these steps in more detail.
 
 ## [Perform a smart contract audit](https://docs.openzeppelin.com/learn/preparing-for-mainnet#auditing-and-security)
 
@@ -12,12 +12,12 @@ Auditing and assessing the security of smart contracts is imperative prior to de
 
 ## [Verify source code](https://docs.openzeppelin.com/learn/preparing-for-mainnet#verify-source-code)
 
-Before deployming to mainnet, the smart contract source code should be verified by submitting the Solidity code to a third-party. Public services, which as [Etherscan](https://etherscan.io/verifyContract), will compile it and verify that it matches the deployed assembly. This allows any user to view your contract code in a block explorer, and know that it corresponds to the assembly actually running at that address.
+Before deploying to mainnet, the smart contract source code should be verified by submitting the Solidity code to a third-party. Public services, which as [Etherscan](https://etherscan.io/verifyContract), will compile it and verify that it matches the deployed assembly. This allows any user to view your contract code in a block explorer, and know that it corresponds to the assembly actually running at that address.
 
 Steps for Verifying and Publishing your Solidity Source Code:
 
 - Enter Contract Source Code.
-- If the Bytecode generated matches the existing Creation Address Bytecode, the contract is then Verified.
+- If the Bytecode generated matches the existing Creation Address Bytecode, the contract is then verified.
 - Contract Source Code is published and publicly verifiable by anyone.
 
 ## [Manage keys securely](https://docs.openzeppelin.com/learn/preparing-for-mainnet#key-management)

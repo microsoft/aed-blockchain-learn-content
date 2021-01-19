@@ -1,16 +1,16 @@
 Ethereum is a protocol with multiple independent networks that are part of this protocol.
 
-Networks are different Ethereum environments you can access for development, testing, or production use cases. It’s helpful to have a good understanding of the networks that Ethereum provides and how to work with the networks of your choice. For whatever solution you have, you’re going to need to choose if you will have a private or public solution and how to go from development to a test network to production network.
+Networks are Ethereum environments you can access for development, testing, or production use cases. It’s important to have an understanding of the networks that Ethereum provides, how they differ from one another, and how to connect and deploy to the networks of your choice. For whatever blockchain solution you create, you’re going to need to choose if you'll have a private or public solution and how to go from development to test to production network.
 
-The goal of this module is to get more familiar with the network options in the Ethereum protocol, some tools you can use to interact with them, and learn how to connect and deploy to different networks.
+The goal of this module is to get more familiar with the network options in the Ethereum protocol, some tools you can use to interact with them, and learn how to work with to different networks.
 
 ## Learning objectives
 
- By the end of this module, you will be able to:
+ By the end of this module, you'll be able to:
 
 - Identify the public and private networks available in Ethereum.
-- Explain what is required to prepare a solution for the mainnet
-- Know how to use Metamask with Infura to connect a solution to networks
+- Explain what is required to prepare a solution for the mainnet.
+- Know how to use Metamask with Infura to connect a blockchain solution to networks.
 
 ## Prerequisites
 
@@ -23,4 +23,3 @@ The goal of this module is to get more familiar with the network options in the 
 - Node.js installed
 - Truffle and Ganache CLI installed
 - Visual Studio Code installed
-- Blockchain Development Kit for Ethereum installed
