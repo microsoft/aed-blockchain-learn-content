@@ -66,19 +66,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 1. Knowledge check
 1. Summary
 
-**Status:** In progress
-
-### Module: Create a bank smart contract with exchange rate
-
-1. Introduction
-2. Use advanced Solidity data structures
-3. Understand how oracles work in blockchain
-4. Exercise: TBD
-5. Exercise: TBD
-6. Knowledge check
-7. Summary
-
-**Status:** On hold
+**Status:** Live
 
 ## Contributing
 
