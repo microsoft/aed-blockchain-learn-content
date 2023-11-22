@@ -17,7 +17,7 @@ This repo contains all the content for development of blockchain Learn modules. 
 
 **Status:** Live
 
-### Module: Write Ethereum smart contracts by using Soliidity
+### Module: Write Ethereum smart contracts by using Solidity
 
 1. Introduction
 2. Learn what smart contracts are
